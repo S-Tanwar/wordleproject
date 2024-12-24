@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .game-container {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    
+
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+  }
+  
+  #feedback-message {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  #board div {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+   
+
+  }
+  
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .present {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .absent {
+    background-color: gray;
+    color: white;
+  }
+  
